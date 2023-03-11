@@ -1,0 +1,25 @@
+.header {
+  padding: 0.8rem;
+  margin: 0;
+  border-top: 1px solid rgb(0,0,0,0.5);
+  border-bottom: 1px solid rgb(0,0,0,0.5);
+  text-align: center;
+}
+.alert_header_bg_success, .alert_header_bg_error {
+  position: relative;
+  padding: 0.1rem;
+  color: #fff;
+  background-color: #B5D43C;
+}
+.alert_header_bg_error {
+  background-color: #FF5436;
+}
+.alert_bg_content_success, .alert_bg_content_error {
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1rem;
+  background-color: #ECFF9F;
+  border-bottom: 1px solid rgb(0,0,0,0.5);
+}
+.alert_bg_content_error {
+  background-color: #FF8975;
+}
